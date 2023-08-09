@@ -1,0 +1,35 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test by raphael",
+            "purpose": "commenting",
+            "creator": {
+                "id": "chauraph",
+                "name": "chauraph"
+            },
+            "created": "2023-08-09T09:22:54.325Z",
+            "modified": "2023-08-09T09:22:58.028Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=19946.408203125,2980.375244140625,1142.25,955.072021484375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "64491fc4-9a7c-4fbd-a69b-6bc66b7c0745.json",
+    "motivation": "commenting"
+}
