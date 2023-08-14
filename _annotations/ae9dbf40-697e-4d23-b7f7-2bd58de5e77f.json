@@ -1,0 +1,48 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Duke of Burgundy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "raphaelemplus",
+                "name": "raphaelemplus"
+            },
+            "created": "2023-08-14T10:33:18.015Z",
+            "modified": "2023-08-14T10:33:45.313Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/Person",
+                "label": "Person"
+            },
+            "creator": {
+                "id": "raphaelemplus",
+                "name": "raphaelemplus"
+            },
+            "created": "2023-08-14T10:33:48.894Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7202.08056640625,2372.90576171875,941.3154296875,834.447021484375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ae9dbf40-697e-4d23-b7f7-2bd58de5e77f.json",
+    "motivation": "commenting"
+}
