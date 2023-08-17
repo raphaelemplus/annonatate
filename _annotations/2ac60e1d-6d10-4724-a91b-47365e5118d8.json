@@ -1,0 +1,48 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/Person",
+                "label": "Person"
+            },
+            "creator": {
+                "id": "raphaelemplus",
+                "name": "raphaelemplus"
+            },
+            "created": "2023-08-17T12:30:47.352Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Person on a horse",
+            "purpose": "commenting",
+            "creator": {
+                "id": "raphaelemplus",
+                "name": "raphaelemplus"
+            },
+            "created": "2023-08-17T12:30:48.642Z",
+            "modified": "2023-08-17T12:30:56.160Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8758.7646484375,2498.67333984375,587.7490234375,506.257080078125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2ac60e1d-6d10-4724-a91b-47365e5118d8.json",
+    "motivation": "commenting"
+}
