@@ -3,56 +3,56 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Gurwolf/Courgevaux, road to Fribourg\nLegend number 6 original guide (1894)",
-            "purpose": "commenting",
+            "created": "2023-08-21T14:26:09.468Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:26:09.468Z",
-            "modified": "2023-08-21T14:27:24.444Z"
+            "modified": "2023-08-21T14:39:16.509Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Gurwolf/Courgevaux, road to Fribourg\nLegend number 6 original guide (1894)\nhttps://s.geo.admin.ch/a143e3f117"
         },
         {
-            "type": "SpecificResource",
+            "created": "2023-08-21T14:27:31.167Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "purpose": "tagging",
             "source": {
                 "id": "http://dbpedia.org/ontology/Place",
                 "label": "Place"
             },
-            "creator": {
-                "id": "danieljaquet",
-                "name": "danieljaquet"
-            },
-            "created": "2023-08-21T14:27:31.167Z"
+            "type": "SpecificResource"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Guide1894",
+            "created": "2023-08-21T14:27:35.382Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:27:35.382Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Guide1894"
         }
     ],
+    "id": "025032b1-b48a-401d-9f82-d0c6ea7f1e7d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=11748.80078125,2247.612060546875,698.181640625,370.9091796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=11748.80078125,2247.612060546875,698.181640625,370.9091796875"
+        },
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "025032b1-b48a-401d-9f82-d0c6ea7f1e7d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
