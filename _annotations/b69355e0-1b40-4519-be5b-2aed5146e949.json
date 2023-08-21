@@ -3,56 +3,56 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hans Waldmann (1435-1489)\n",
-            "purpose": "commenting",
+            "created": "2023-08-21T13:40:42.554Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T13:40:42.554Z",
-            "modified": "2023-08-21T13:44:04.091Z"
+            "modified": "2023-08-21T13:49:09.491Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hans Waldmann (1435-1489)\nlegend number 1 of the original guide (1894)"
         },
         {
-            "type": "SpecificResource",
+            "created": "2023-08-21T13:43:47.405Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "purpose": "tagging",
             "source": {
                 "id": "http://dbpedia.org/ontology/Person",
                 "label": "Person"
             },
-            "creator": {
-                "id": "danieljaquet",
-                "name": "danieljaquet"
-            },
-            "created": "2023-08-21T13:43:47.405Z"
+            "type": "SpecificResource"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Guide1894",
+            "created": "2023-08-21T13:43:56.739Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T13:43:56.739Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Guide1894"
         }
     ],
+    "id": "b69355e0-1b40-4519-be5b-2aed5146e949.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3121.803955078125,2079.470458984375,610.19677734375,593.340576171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3121.803955078125,2079.470458984375,610.19677734375,593.340576171875"
+        },
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b69355e0-1b40-4519-be5b-2aed5146e949.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
