@@ -30,25 +30,36 @@ order: 1
             "type": "SpecificResource"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Guide1894",
+            "created": "2023-08-21T14:02:52.287Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:02:52.287Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Guide1894"
+        },
+        {
+            "created": "2023-08-21T14:04:10.635Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "modified": "2023-08-21T14:05:31.212Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charles the Bold (1433-1477)\nDuke of Burgundy (1467-1477)\nhttps://hls-dhs-dss.ch/fr/articles/029226"
         },
         {
             "type": "TextualBody",
-            "value": "Charles the Bold (1433-1477)\nDuke of Burgundy (1467-1477)\nhttps://hls-dhs-dss.ch/fr/articles/029226",
-            "purpose": "commenting",
+            "value": "Legend number 3 Original guide (1894)",
+            "purpose": "replying",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:04:10.635Z",
-            "modified": "2023-08-21T14:05:31.212Z"
+            "created": "2023-08-21T14:11:49.524Z",
+            "modified": "2023-08-21T14:11:59.763Z"
         }
     ],
     "id": "ae9dbf40-697e-4d23-b7f7-2bd58de5e77f.json",
