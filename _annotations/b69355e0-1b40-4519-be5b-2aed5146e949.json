@@ -38,6 +38,16 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Guide1894"
+        },
+        {
+            "type": "TextualBody",
+            "value": "https://hls-dhs-dss.ch/fr/articles/018054/2013-08-07/",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-21T14:06:16.132Z"
         }
     ],
     "id": "b69355e0-1b40-4519-be5b-2aed5146e949.json",
