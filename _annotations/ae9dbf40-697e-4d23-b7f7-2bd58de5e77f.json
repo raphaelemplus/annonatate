@@ -45,36 +45,36 @@ order: 1
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "modified": "2023-08-21T14:05:31.212Z",
+            "modified": "2023-08-22T08:18:45.228Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charles the Bold (1433-1477)\nDuke of Burgundy (1467-1477)\nhttps://hls-dhs-dss.ch/fr/articles/029226"
+            "value": "Charles the Bold (1433-1477)\nDuke of Burgundy (1467-1477)\nhttps://hls-dhs-dss.ch/fr/articles/029226\nhttps://viaf.org/viaf/84075206/"
         },
         {
-            "type": "TextualBody",
-            "value": "Legend number 3 Original guide (1894)",
-            "purpose": "replying",
+            "created": "2023-08-21T14:11:49.524Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:11:49.524Z",
-            "modified": "2023-08-21T14:11:59.763Z"
+            "modified": "2023-08-21T14:11:59.763Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "Legend number 3 Original guide (1894)"
         }
     ],
     "id": "ae9dbf40-697e-4d23-b7f7-2bd58de5e77f.json",
     "motivation": "commenting",
     "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7202.08056640625,2372.90576171875,941.3154296875,834.447021484375"
+        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=7202.08056640625,2372.90576171875,941.3154296875,834.447021484375"
-        },
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+        }
     },
     "type": "Annotation"
 }
