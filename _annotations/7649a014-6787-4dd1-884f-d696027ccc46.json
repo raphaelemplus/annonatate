@@ -1,0 +1,58 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 18
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Right wing of the Confederate troops\nLegend number 17 original guide (1894)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:55:54.261Z",
+            "modified": "2023-08-22T08:56:21.441Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/MilitaryUnit",
+                "label": "MilitaryUnit"
+            },
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:56:28.976Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Guide1894",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:56:32.752Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=32221.47265625,3179.3232421875,9236.0859375,807.240478515625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7649a014-6787-4dd1-884f-d696027ccc46.json",
+    "motivation": "commenting"
+}
