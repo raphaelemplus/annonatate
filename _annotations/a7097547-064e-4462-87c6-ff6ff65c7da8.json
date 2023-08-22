@@ -1,0 +1,168 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 12
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Merlach/Meyrier\nLegend number 11 (original guide)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:29:53.082Z",
+            "modified": "2023-08-22T08:30:13.553Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            7.088296,
+                            46.9328922
+                        ],
+                        [
+                            7.0998756,
+                            46.9221848
+                        ],
+                        [
+                            7.1016071,
+                            46.9208191
+                        ],
+                        [
+                            7.1017239,
+                            46.9206975
+                        ],
+                        [
+                            7.101506,
+                            46.9205888
+                        ],
+                        [
+                            7.1017057,
+                            46.9204548
+                        ],
+                        [
+                            7.1019157,
+                            46.9205746
+                        ],
+                        [
+                            7.1020216,
+                            46.9204892
+                        ],
+                        [
+                            7.1021018,
+                            46.9205296
+                        ],
+                        [
+                            7.1036269,
+                            46.9192964
+                        ],
+                        [
+                            7.1046082,
+                            46.9199252
+                        ],
+                        [
+                            7.1058258,
+                            46.9206246
+                        ],
+                        [
+                            7.1087183,
+                            46.9221183
+                        ],
+                        [
+                            7.1087667,
+                            46.9221433
+                        ],
+                        [
+                            7.1094118,
+                            46.9224016
+                        ],
+                        [
+                            7.1112957,
+                            46.9233329
+                        ],
+                        [
+                            7.1113395,
+                            46.9235423
+                        ],
+                        [
+                            7.1117795,
+                            46.9235888
+                        ],
+                        [
+                            7.1117903,
+                            46.9234789
+                        ],
+                        [
+                            7.1120906,
+                            46.9239707
+                        ],
+                        [
+                            7.1123647,
+                            46.9242726
+                        ],
+                        [
+                            7.1108894,
+                            46.9260739
+                        ],
+                        [
+                            7.1108717,
+                            46.9261569
+                        ],
+                        [
+                            7.1104054,
+                            46.9265412
+                        ],
+                        [
+                            7.1107438,
+                            46.926734
+                        ],
+                        [
+                            7.1108061,
+                            46.9267695
+                        ],
+                        [
+                            7.1098117,
+                            46.9280184
+                        ],
+                        [
+                            7.0987858,
+                            46.9382155
+                        ],
+                        [
+                            7.088296,
+                            46.9328922
+                        ]
+                    ]
+                ]
+            },
+            "source": "https://www.openstreetmap.org/relation/1683362",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:30:21.015Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=22835.80859375,2541.565673828125,836.734375,509.58935546875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a7097547-064e-4462-87c6-ff6ff65c7da8.json",
+    "motivation": "commenting"
+}
