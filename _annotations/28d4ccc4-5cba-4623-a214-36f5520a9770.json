@@ -3,73 +3,73 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 24
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Heights of Salvenach/Salvagny\nLegend number 24 original guide (1894)",
-            "purpose": "commenting",
+            "created": "2023-08-22T16:21:32.503Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T16:21:32.503Z",
-            "modified": "2023-08-22T16:21:53.386Z"
+            "modified": "2023-08-22T16:23:09.817Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Heights of Salvenach/Salvagny\nLegend number 24 original guide (1894)\nhttps://www.geonames.org/11048784/"
         },
         {
-            "type": "SpecificResource",
+            "created": "2023-08-22T16:22:02.094Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "purpose": "tagging",
             "source": {
                 "id": "http://dbpedia.org/ontology/Place",
                 "label": "Place"
             },
+            "type": "SpecificResource"
+        },
+        {
+            "created": "2023-08-22T16:22:07.397Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T16:22:02.094Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Guide1894",
+            "type": "TextualBody",
+            "value": "Guide1894"
+        },
+        {
+            "created": "2023-08-22T16:22:15.421Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T16:22:07.397Z"
-        },
-        {
-            "purpose": "geotagging",
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
                 "coordinates": [
                     7.1506919,
                     46.911338
-                ]
+                ],
+                "type": "Point"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/node/240121178",
-            "creator": {
-                "id": "danieljaquet",
-                "name": "danieljaquet"
-            },
-            "created": "2023-08-22T16:22:15.421Z"
+            "type": "Feature"
         }
     ],
+    "id": "28d4ccc4-5cba-4623-a214-36f5520a9770.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=41114.34375,1711.6134033203125,560.875,466.5220947265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=41114.34375,1711.6134033203125,560.875,466.5220947265625"
+        },
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "28d4ccc4-5cba-4623-a214-36f5520a9770.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
