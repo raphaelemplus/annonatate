@@ -3,69 +3,69 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Duke of Somerset, commander of the English archers\nLegend number 8 original guide (1894)",
-            "purpose": "commenting",
+            "created": "2023-08-21T14:35:29.413Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:35:29.413Z",
-            "modified": "2023-08-21T14:37:56.356Z"
+            "modified": "2023-08-21T14:37:56.356Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Duke of Somerset, commander of the English archers\nLegend number 8 original guide (1894)"
         },
         {
-            "type": "SpecificResource",
+            "created": "2023-08-21T14:35:50.171Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "purpose": "tagging",
             "source": {
                 "id": "http://dbpedia.org/ontology/MilitaryPerson",
                 "label": "MilitaryPerson"
             },
+            "type": "SpecificResource"
+        },
+        {
+            "created": "2023-08-21T14:35:55.939Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:35:50.171Z"
-        },
-        {
-            "type": "SpecificResource",
             "purpose": "tagging",
             "source": {
                 "id": "http://dbpedia.org/ontology/Person",
                 "label": "Person"
             },
-            "creator": {
-                "id": "danieljaquet",
-                "name": "danieljaquet"
-            },
-            "created": "2023-08-21T14:35:55.939Z"
+            "type": "SpecificResource"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Guide1894",
+            "created": "2023-08-21T14:36:00.247Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-21T14:36:00.247Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Guide1894"
         }
     ],
+    "id": "5e958b16-fb07-4fcd-b8ad-327dda361e11.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=16086.982421875,3909.43017578125,981.818359375,625.45458984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=16086.982421875,3909.43017578125,981.818359375,625.45458984375"
+        },
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5e958b16-fb07-4fcd-b8ad-327dda361e11.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
