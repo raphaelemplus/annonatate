@@ -3,47 +3,49 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pfauen/Faoug, road to Avenches\nLegend number 12 original guide (1894)",
-            "purpose": "commenting",
+            "created": "2023-08-22T08:35:36.337Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T08:35:36.337Z",
-            "modified": "2023-08-22T08:35:54.890Z"
+            "modified": "2023-08-22T08:37:07.173Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pfauen/Faoug, road to Avenches\nLegend number 12 original guide (1894)\nhttps://s.geo.admin.ch/a147be443a\n(not on Geonames)"
         },
         {
-            "type": "SpecificResource",
+            "created": "2023-08-22T08:36:01.631Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "purpose": "tagging",
             "source": {
                 "id": "http://dbpedia.org/ontology/Place",
                 "label": "Place"
             },
+            "type": "SpecificResource"
+        },
+        {
+            "created": "2023-08-22T08:36:08.466Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T08:36:01.631Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Guide",
+            "type": "TextualBody",
+            "value": "Guide"
+        },
+        {
+            "created": "2023-08-22T08:36:17.260Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T08:36:08.466Z"
-        },
-        {
-            "purpose": "geotagging",
-            "type": "Feature",
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -583,29 +585,27 @@ order: 13
                             46.9055926
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/relation/1684970",
-            "creator": {
-                "id": "danieljaquet",
-                "name": "danieljaquet"
-            },
-            "created": "2023-08-22T08:36:17.260Z"
+            "type": "Feature"
         }
     ],
+    "id": "9be665fd-4539-4601-ba1b-c85ab8e31884.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=20294.58203125,2585.170654296875,567.646484375,256.19384765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=20294.58203125,2585.170654296875,567.646484375,256.19384765625"
+        },
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9be665fd-4539-4601-ba1b-c85ab8e31884.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
