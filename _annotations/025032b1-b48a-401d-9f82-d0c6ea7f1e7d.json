@@ -40,10 +40,12 @@ order: 7
             "value": "Guide1894"
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2023-08-22T08:11:57.950Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -583,14 +585,12 @@ order: 7
                             46.9076988
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/relation/1683301",
-            "creator": {
-                "id": "danieljaquet",
-                "name": "danieljaquet"
-            },
-            "created": "2023-08-22T08:11:57.950Z"
+            "type": "Feature"
         }
     ],
     "id": "025032b1-b48a-401d-9f82-d0c6ea7f1e7d.json",
