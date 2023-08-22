@@ -3,24 +3,26 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Merlach/Meyrier\nLegend number 11 (original guide)",
-            "purpose": "commenting",
+            "created": "2023-08-22T08:29:53.082Z",
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T08:29:53.082Z",
-            "modified": "2023-08-22T08:30:13.553Z"
+            "modified": "2023-08-22T08:32:15.777Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Merlach/Meyrier\nLegend number 11 (original guide)\nhttps://s.geo.admin.ch/a147ba261f\n(not on Geonames)"
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2023-08-22T08:30:21.015Z",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -140,29 +142,50 @@ order: 12
                             46.9328922
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/relation/1683362",
+            "type": "Feature"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/Place",
+                "label": "Place"
+            },
             "creator": {
                 "id": "danieljaquet",
                 "name": "danieljaquet"
             },
-            "created": "2023-08-22T08:30:21.015Z"
+            "created": "2023-08-22T08:30:57.693Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Guide1894",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:31:01.711Z"
         }
     ],
+    "id": "a7097547-064e-4462-87c6-ff6ff65c7da8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=22835.80859375,2541.565673828125,836.734375,509.58935546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=22835.80859375,2541.565673828125,836.734375,509.58935546875"
+        },
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a7097547-064e-4462-87c6-ff6ff65c7da8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
