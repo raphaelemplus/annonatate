@@ -1,0 +1,71 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 19
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Camp of the Count of Romont (Jacques of Savoy, 1450-1486)\nLegend number 18 original guide (1894)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:57:44.205Z",
+            "modified": "2023-08-22T08:59:28.484Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/Place",
+                "label": "Place"
+            },
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:59:33.038Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/MilitaryPerson",
+                "label": "MilitaryPerson"
+            },
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:59:44.304Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Guide1894",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T08:59:48.184Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=31277.943359375,2817.637451171875,938.287109375,587.083984375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "af816b9c-376a-44fa-a1a1-ff5f69a8f19c.json",
+    "motivation": "commenting"
+}
