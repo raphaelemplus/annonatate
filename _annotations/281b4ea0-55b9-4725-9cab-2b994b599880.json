@@ -1,0 +1,58 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 27
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Count of Thierstein\nLegend number 27 original guide (1894)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T16:29:40.282Z",
+            "modified": "2023-08-22T16:29:51.977Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/ontology/MilitaryPerson",
+                "label": "MilitaryPerson"
+            },
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T16:30:00.149Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Guide1894",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-08-22T16:30:05.390Z"
+        }
+    ],
+    "target": {
+        "source": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=44064.203125,2238.55517578125,341.59375,698.254150390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "281b4ea0-55b9-4725-9cab-2b994b599880.json",
+    "motivation": "commenting"
+}
