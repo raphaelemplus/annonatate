@@ -1,0 +1,38 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 36
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "MOCAP B: guisarm",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-10-31T12:51:08.557Z",
+            "modified": "2023-10-31T12:51:13.143Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=46264.94921875,3065.1572265625,469.08984375,596.36376953125"
+        }
+    },
+    "id": "9f9de791-9152-4148-8211-09d87be75762.json",
+    "motivation": "commenting"
+}
