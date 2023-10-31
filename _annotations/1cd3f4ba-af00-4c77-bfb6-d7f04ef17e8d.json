@@ -1,0 +1,38 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 31
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Mocap B: bowman shooting",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-10-31T12:13:12.219Z",
+            "modified": "2023-10-31T12:13:18.595Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=14640.4091796875,3610.209228515625,346.8671875,736.274658203125"
+        }
+    },
+    "id": "1cd3f4ba-af00-4c77-bfb6-d7f04ef17e8d.json",
+    "motivation": "commenting"
+}
