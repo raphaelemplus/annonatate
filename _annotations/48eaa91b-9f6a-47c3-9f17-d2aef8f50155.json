@@ -1,0 +1,51 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 40
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "OBJECT.\nhttps://sammlung.nationalmuseum.ch/de/list/collection?searchText=harnisch&detailID=100127579",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-11-08T14:06:54.394Z",
+            "modified": "2023-11-08T14:07:15.892Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "http://dbpedia.org/resource/Man_Made_Object",
+                "label": "Object"
+            },
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-11-08T14:07:10.308Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=10016.2333984375,3237.325927734375,312.5078125,528.4814453125"
+        }
+    },
+    "id": "48eaa91b-9f6a-47c3-9f17-d2aef8f50155.json",
+    "motivation": "commenting"
+}
