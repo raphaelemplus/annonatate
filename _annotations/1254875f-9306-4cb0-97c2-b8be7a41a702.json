@@ -1,0 +1,38 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 43
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "OBJECT - longsword",
+            "purpose": "commenting",
+            "creator": {
+                "id": "danieljaquet",
+                "name": "danieljaquet"
+            },
+            "created": "2023-11-08T14:25:08.275Z",
+            "modified": "2023-11-08T14:25:11.931Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=31400.916015625,3576.01220703125,729.73046875,788.6318359375"
+        }
+    },
+    "id": "1254875f-9306-4cb0-97c2-b8be7a41a702.json",
+    "motivation": "commenting"
+}
