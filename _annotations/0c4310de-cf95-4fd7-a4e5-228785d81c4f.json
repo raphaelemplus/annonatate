@@ -1,0 +1,37 @@
+---
+canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
+order: 45
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "this is a test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "epicinbits",
+                "name": "epicinbits"
+            },
+            "created": "2023-11-15T09:53:32.641Z",
+            "modified": "2023-11-15T09:53:36.863Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"14881.0234375\" cy=\"250.9009017944336\" r=\"238.5559220096136\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0c4310de-cf95-4fd7-a4e5-228785d81c4f.json",
+    "motivation": "commenting"
+}
