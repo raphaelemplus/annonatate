@@ -3,21 +3,38 @@ canvas: "http://9a576735-21c2-404b-9d9f-f06801b534a2"
 order: 45
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "this is a test",
-            "purpose": "commenting",
+            "created": "2023-11-15T09:53:32.641Z",
             "creator": {
                 "id": "epicinbits",
                 "name": "epicinbits"
             },
-            "created": "2023-11-15T09:53:32.641Z",
-            "modified": "2023-11-15T09:53:36.863Z"
+            "modified": "2023-11-15T09:53:36.863Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "this is a test"
+        },
+        {
+            "type": "TextualBody",
+            "value": "a reply",
+            "purpose": "commenting",
+            "creator": {
+                "id": "raphaelemplus",
+                "name": "raphaelemplus"
+            },
+            "created": "2023-11-16T10:29:56.349Z",
+            "modified": "2023-11-16T10:29:57.450Z"
         }
     ],
+    "id": "0c4310de-cf95-4fd7-a4e5-228785d81c4f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"14881.0234375\" cy=\"250.9009017944336\" r=\"238.5559220096136\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://raphaelemplus.github.io/annonatate/manifests/iipsrv-murtenproxy.fly.dev/murtenproxy.json/manifest.json",
@@ -25,13 +42,7 @@ order: 45
             },
             "id": "http://9a576735-21c2-404b-9d9f-f06801b534a2",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"14881.0234375\" cy=\"250.9009017944336\" r=\"238.5559220096136\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0c4310de-cf95-4fd7-a4e5-228785d81c4f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
