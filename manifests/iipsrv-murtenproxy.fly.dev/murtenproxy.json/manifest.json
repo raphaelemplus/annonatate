@@ -1,6 +1,6 @@
 ---
 added: '2023-07-28 14:29:19.991834'
-thumbnail: https://iipsrv-murtenproxy.fly.dev/iipsrv/iipsrv.fcgi?IIIF=/data/Panorama_gross_work_NEU_48000px_details.ptif/full/120,/0/default.jpg
+thumbnail: https://murten.raphael-chau.com/iiif/Panorama_gross_work_NEU_48000px_details.ptif/full/120,/0/default.jpg
 title: Murten Panorama (Proxy)
 
 ---
@@ -42,12 +42,12 @@ title: Murten Panorama (Proxy)
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://iipsrv-murtenproxy.fly.dev/iipsrv/iipsrv.fcgi?IIIF=/data/Panorama_gross_work_NEU_48000px_details.ptif/full/full/0/default.jpg",
+                "@id": "https://murten.raphael-chau.com/iiif/Panorama_gross_work_NEU_48000px_details.ptif/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iipsrv-murtenproxy.fly.dev/iipsrv/iipsrv.fcgi?IIIF=/data/Panorama_gross_work_NEU_48000px_details.ptif",
+                  "@id": "https://murten.raphael-chau.com/iiif/Panorama_gross_work_NEU_48000px_details.ptif",
                   "profile": [
                     "http://iiif.io/api/image/2/level2.json",
                     {
